@@ -2,8 +2,8 @@
 
 # Bazous pour Claude et ChatGPT
 
-**Les réponses de votre foyer, sans avoir à trouver les questions.**
-Bazous connaît les questions d’argent qui comptent (celles de l’expertise et de la [communauté](https://github.com/bazousdotcom/ui)) et y répond avec les données de votre foyer. Ces plugins apportent ces réponses dans Claude et ChatGPT.
+**Les réponses de ton foyer, sans avoir à trouver les questions.**
+Bazous connaît les questions d’argent qui comptent (celles de l’expertise et de la [communauté](https://github.com/bazousdotcom/ui)) et y répond avec les données de ton foyer. Ces plugins apportent ces réponses dans Claude et ChatGPT.
 
 Ce dépôt ne contient que des intégrations : manifestes, skills et logo. Il ne contient aucun code de l’application Bazous, et aucune donnée.
 
@@ -16,7 +16,7 @@ Ce dépôt ne contient que des intégrations : manifestes, skills et logo. Il ne
 /plugin install bazous@bazous
 ```
 
-Lancez ensuite `/mcp`, choisissez `plugin:bazous:bazous` et connectez-vous à Bazous dans le navigateur.
+Lance ensuite `/mcp`, choisis `plugin:bazous:bazous` et connecte-toi à Bazous dans le navigateur.
 
 ### Claude (claude.ai, desktop, mobile)
 
@@ -25,13 +25,13 @@ Lancez ensuite `/mcp`, choisissez `plugin:bazous:bazous` et connectez-vous à Ba
 - Nom : `Bazous`
 - URL : `https://bazous.com/mcp`
 
-Cliquez sur **Se connecter** et autorisez l’accès avec votre compte Bazous.
+Clique sur **Se connecter** et autorise l’accès avec ton compte Bazous.
 
 ### ChatGPT
 
-Dans ChatGPT, ouvrez **Apps**, cherchez **Bazous** et cliquez sur **Connecter**. Tant que l’app n’est pas listée, un développeur peut la créer avec l’URL `https://bazous.com/mcp`, l’authentification OAuth et l’icône [`assets/icon-256-chatgpt.png`](assets/icon-256-chatgpt.png) (PNG de moins de 10 Ko, la limite de ChatGPT).
+Dans ChatGPT, ouvre **Apps**, cherche **Bazous** et clique sur **Connecter**. Tant que l’app n’est pas listée, un développeur peut la créer avec l’URL `https://bazous.com/mcp`, l’authentification OAuth et l’icône [`assets/icon-256-chatgpt.png`](assets/icon-256-chatgpt.png) (PNG de moins de 10 Ko, la limite de ChatGPT).
 
-Partout, la connexion utilise votre compte Bazous (OAuth). L’assistant ne voit que les foyers auxquels votre compte a accès.
+Partout, la connexion utilise ton compte Bazous (OAuth). L’assistant ne voit que les foyers auxquels ton compte a accès.
 
 ## Ce que fait le plugin Claude
 
@@ -42,7 +42,7 @@ Partout, la connexion utilise votre compte Bazous (OAuth). L’assistant ne voit
 | [`payday-review`](claude/skills/payday-review/SKILL.md) | Revue avant le salaire : factures, disponible, point bas |
 | [`cashflow-what-if`](claude/skills/cashflow-what-if/SKILL.md) | Simulation d’un paiement déplacé, ajouté ou retiré, sans rien enregistrer |
 
-Bazous n’accède pas automatiquement à vos comptes bancaires, n’exécute aucun paiement et ne donne pas de conseil en investissement.
+Bazous n’accède pas automatiquement à tes comptes bancaires, n’exécute aucun paiement et ne donne pas de conseil en investissement.
 
 ## Contribuer
 
