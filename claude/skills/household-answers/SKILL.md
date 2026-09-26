@@ -9,5 +9,6 @@ People do not know what they do not know. Bazous answers, for the household, the
 2. Call `get_household_answers` with the user's language (`fr`, `de`, `it`, `rm` or `en`).
 3. Say the `headline`. Then give each item of `answers` in the order returned (the most urgent first), using its `answer` text as given and adding its `because` when present. Then put the `all_clear` items together in one short line. Do not expand the all-clear items unless asked.
 4. Never recompute, round, convert or estimate a figure. If `missing_data` is not empty, say what is missing and that it can be completed in Bazous.
-5. Then offer to go deeper: `get_upcoming_obligations` for the bills, `simulate_payment_change` to test a move (nothing is saved), `get_pay_cycle_forecast` for the pay cycle.
-6. A "best move" postpones a bill: remind the user to check that the creditor accepts the delay. Bazous gives no investment advice, executes no payment and does not connect to bank accounts.
+5. When an answer lists `needs` (for example the health-insurance premium or the last tax bill), ask the user for exactly those facts, in one short question. Never guess them. Once given, save them with `update_household_profile`, then call `get_household_answers` again and give the updated answer. Bazous keeps them: each fact is asked only once.
+6. Then offer to go deeper: `get_upcoming_obligations` for the bills, `simulate_payment_change` to test a move (nothing is saved), `get_pay_cycle_forecast` for the pay cycle.
+7. A "best move" postpones a bill: remind the user to check that the creditor accepts the delay. Bazous gives no investment advice, executes no payment and does not connect to bank accounts.
