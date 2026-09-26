@@ -38,6 +38,7 @@ Partout, la connexion utilise votre compte Bazous (OAuth). L’assistant ne voit
 | Élément | Rôle |
 | --- | --- |
 | [`claude/.mcp.json`](claude/.mcp.json) | Serveur MCP Bazous `https://bazous.com/mcp` |
+| [`household-answers`](claude/skills/household-answers/SKILL.md) | Ce que le foyer doit savoir aujourd’hui, sans avoir à poser la question : les réponses de Bazous, le plus urgent d’abord |
 | [`payday-review`](claude/skills/payday-review/SKILL.md) | Revue avant le salaire : factures, disponible, point bas |
 | [`cashflow-what-if`](claude/skills/cashflow-what-if/SKILL.md) | Simulation d’un paiement déplacé, ajouté ou retiré, sans rien enregistrer |
 
