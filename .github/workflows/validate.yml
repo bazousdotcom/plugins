@@ -1,0 +1,26 @@
+name: validate
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  plugin:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Manifests parse
+        run: |
+          for f in .claude-plugin/marketplace.json claude/.claude-plugin/plugin.json claude/.mcp.json; do
+            python3 -m json.tool "$f" >/dev/null
+          done
+      - name: Claude plugin and marketplace validate
+        run: |
+          npx -y @anthropic-ai/claude-code@latest plugin validate ./claude
+          npx -y @anthropic-ai/claude-code@latest plugin validate .
+      - name: ChatGPT icon stays under the 10 KB limit
+        run: test "$(stat -c%s assets/icon-256-chatgpt.png)" -lt 10000

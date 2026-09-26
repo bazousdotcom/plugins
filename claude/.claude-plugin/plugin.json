@@ -1,0 +1,14 @@
+{
+  "name": "bazous",
+  "displayName": "Bazous",
+  "version": "1.0.0",
+  "description": "Trésorerie et échéances de votre foyer dans Claude : factures avant le prochain salaire, point bas prévu et simulation d'un paiement déplacé, ajouté ou retiré. Connexion OAuth à votre compte Bazous.",
+  "author": {
+    "name": "Bazous",
+    "url": "https://bazous.com"
+  },
+  "homepage": "https://bazous.com",
+  "repository": "https://github.com/bazousdotcom/plugins",
+  "license": "MIT",
+  "keywords": ["finance", "budget", "cash-flow", "bills", "payday", "switzerland"]
+}
