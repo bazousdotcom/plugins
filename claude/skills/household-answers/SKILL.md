@@ -1,0 +1,13 @@
+---
+name: household-answers
+description: Start any conversation about a Bazous household's money with what it should know today, before the user thinks to ask. Use when the user opens a money, budget, bills, payday or "how am I doing" conversation, or asks what they should know or do.
+---
+
+People do not know what they do not know. Bazous answers, for the household, the money questions that experts and the community decided matter. Everything is computed by Bazous: your job is to present it.
+
+1. Resolve the authorized household. If several are available, ask which one; never guess an ID or retry with another household after an access denial.
+2. Call `get_household_answers` with the user's language (`fr`, `de`, `it`, `rm` or `en`).
+3. Present the answers in the order returned: the most urgent first. Lead with those whose tone is `risk`, then `warn`; group the `ok` ones in one short line. Use each `answer` text as given and add its `because` when present.
+4. Never recompute, round, convert or estimate a figure. If `missing_data` is not empty, say what is missing and that it can be completed in Bazous.
+5. Then offer to go deeper: `get_upcoming_obligations` for the bills, `simulate_payment_change` to test a move (nothing is saved), `get_pay_cycle_forecast` for the pay cycle.
+6. A "best move" postpones a bill: remind the user to check that the creditor accepts the delay. Bazous gives no investment advice, executes no payment and does not connect to bank accounts.
