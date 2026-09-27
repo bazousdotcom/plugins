@@ -1,8 +1,8 @@
 {
   "name": "bazous",
   "displayName": "Bazous",
-  "version": "1.5.0",
-  "description": "Les réponses de ton foyer dans Claude, dessinées : factures avant le prochain salaire, point bas, meilleur paiement à décaler, coussin, impôts, 3e pilier… Connexion OAuth à ton compte Bazous.",
+  "version": "1.5.1",
+  "description": "Your household's answers in Claude, drawn: bills before the next payday, the low point, the best payment to move, safety cushion, taxes, pillar 3a… Signs in to your Bazous account with OAuth.",
   "author": {
     "name": "Bazous",
     "url": "https://bazous.com"
