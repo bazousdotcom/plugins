@@ -1,6 +1,6 @@
 {
   "name": "bazous",
-  "description": "Plugins officiels Bazous pour Claude.",
+  "description": "Official Bazous plugins for Claude.",
   "owner": {
     "name": "Bazous",
     "url": "https://bazous.com"
@@ -10,7 +10,11 @@
       "name": "bazous",
       "source": "./claude",
       "category": "finance",
-      "tags": ["finance", "budget", "cash-flow"]
+      "tags": [
+        "finance",
+        "budget",
+        "cash-flow"
+      ]
     }
   ]
 }
