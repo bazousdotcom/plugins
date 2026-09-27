@@ -4,7 +4,7 @@
 
 [English](README.md)
 
-**Les réponses de ton foyer, sans avoir à trouver les questions.**
+**Les réponses de ton foyer, sans avoir à trouver les questions.** · [▶ Regarde la démo (2 min)](https://bazous.com/fr/demo)
 Bazous connaît les questions d’argent qui comptent (celles de l’expertise et de la [communauté](https://github.com/bazousdotcom/ui)) et y répond avec les données de ton foyer. Ces plugins apportent ces réponses dans Claude et ChatGPT.
 
 Ce dépôt ne contient que des intégrations : manifestes, skills et logo. Il ne contient aucun code de l’application Bazous, et aucune donnée.

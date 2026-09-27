@@ -4,7 +4,7 @@
 
 [Français](README.fr.md)
 
-**Your household's answers, without having to find the questions.**
+**Your household's answers, without having to find the questions.** · [▶ Watch the 2-minute demo](https://bazous.com/demo)
 Bazous knows the money questions that matter (from experts and from the [community](https://github.com/bazousdotcom/ui)) and answers them with your household's data. These plugins bring those answers, with their pictures, into Claude and ChatGPT.
 
 This repository only holds integrations: manifests, skills and logo. It contains no Bazous application code and no data.
