@@ -22,7 +22,7 @@ Lance ensuite `/mcp`, choisis `plugin:bazous:bazous` et connecte-toi à Bazous d
 
 ### Claude (claude.ai, desktop, mobile)
 
-**Paramètres → Connecteurs → Ajouter un connecteur personnalisé**, puis :
+Bazous est en cours d’examen pour l’annuaire des connecteurs de Claude. En attendant, ajoute-le toi-même : **Paramètres → Connecteurs → Ajouter un connecteur personnalisé**, puis :
 
 - Nom : `Bazous`
 - URL : `https://bazous.com/mcp`
@@ -31,7 +31,7 @@ Clique sur **Se connecter** et autorise l’accès avec ton compte Bazous.
 
 ### ChatGPT
 
-Dans ChatGPT, ouvre **Apps**, cherche **Bazous** et clique sur **Connecter**. Tant que l’app n’est pas listée, un développeur peut la créer avec l’URL `https://bazous.com/mcp`, l’authentification OAuth et l’icône [`assets/icon-256-chatgpt.png`](assets/icon-256-chatgpt.png) (PNG de moins de 10 Ko, la limite de ChatGPT).
+Bazous est en cours d’examen pour l’annuaire des apps de ChatGPT. En attendant, active le mode développeur dans ChatGPT et crée une app avec l’URL `https://bazous.com/mcp`, l’authentification OAuth et l’icône [`assets/icon-256-chatgpt.png`](assets/icon-256-chatgpt.png) (PNG de moins de 10 Ko, la limite de ChatGPT). Une fois l’app approuvée, ouvre **Apps**, cherche **Bazous** et clique sur **Connecter**.
 
 Partout, la connexion utilise ton compte Bazous (OAuth). L’assistant ne voit que les foyers auxquels ton compte a accès.
 
@@ -45,6 +45,12 @@ Partout, la connexion utilise ton compte Bazous (OAuth). L’assistant ne voit q
 | [`cashflow-what-if`](claude/skills/cashflow-what-if/SKILL.md) | Simulation d’un paiement déplacé, ajouté ou retiré, sans rien enregistrer |
 
 Bazous n’accède pas automatiquement à tes comptes bancaires, n’exécute aucun paiement et ne donne pas de conseil en investissement.
+
+## En savoir plus
+
+- [Documentation](https://bazous.com/fr/docs) : l’accès demandé par Bazous, ses neuf outils et des questions à essayer
+- [Les applis de budget que tu peux utiliser dans ChatGPT et Claude](https://bazous.com/fr/guides/budgeting-in-chatgpt-and-claude) : un comparatif daté et sourcé, Bazous compris
+- Registre MCP officiel : `com.bazous/bazous`
 
 ## Contribuer
 
