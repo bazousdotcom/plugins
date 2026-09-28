@@ -22,7 +22,7 @@ Then run `/mcp`, pick `plugin:bazous:bazous` and sign in to Bazous in the browse
 
 ### Claude (claude.ai, desktop, mobile)
 
-**Settings → Connectors → Add custom connector**, then:
+Bazous is in review for Claude's connector directory. Until it is listed, add it yourself: **Settings → Connectors → Add custom connector**, then:
 
 - Name: `Bazous`
 - URL: `https://bazous.com/mcp`
@@ -31,7 +31,7 @@ Click **Connect** and authorise access with your Bazous account.
 
 ### ChatGPT
 
-In ChatGPT, open **Apps**, search for **Bazous** and click **Connect**. Until the app is listed, a developer can create it with the URL `https://bazous.com/mcp`, OAuth authentication and the icon [`assets/icon-256-chatgpt.png`](assets/icon-256-chatgpt.png) (a PNG under 10 KB, ChatGPT's limit).
+Bazous is in review for ChatGPT's app directory. Until it is listed, turn on developer mode in ChatGPT and create an app with the URL `https://bazous.com/mcp`, OAuth authentication and the icon [`assets/icon-256-chatgpt.png`](assets/icon-256-chatgpt.png) (a PNG under 10 KB, ChatGPT's limit). Once it is approved, open **Apps**, search for **Bazous** and click **Connect**.
 
 Everywhere, sign-in uses your Bazous account (OAuth). The assistant only sees the households your account has access to.
 
@@ -45,6 +45,12 @@ Everywhere, sign-in uses your Bazous account (OAuth). The assistant only sees th
 | [`cashflow-what-if`](claude/skills/cashflow-what-if/SKILL.md) | Simulating a payment moved, added or removed, without saving anything |
 
 Bazous does not connect to your bank accounts automatically, makes no payment and gives no investment advice.
+
+## Learn more
+
+- [Documentation](https://bazous.com/docs): the access Bazous asks for, its nine tools and questions to try
+- [Budgeting apps you can use inside ChatGPT and Claude](https://bazous.com/guides/budgeting-in-chatgpt-and-claude): a dated, sourced comparison, Bazous included
+- Official MCP registry: `com.bazous/bazous`
 
 ## Contributing
 
